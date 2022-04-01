@@ -5,4 +5,4 @@ app = Flask(__name__)
 
 @app.get("/")
 def homepage():
-    return "Hello World!"
+    return "Hello World"
